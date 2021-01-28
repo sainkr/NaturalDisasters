@@ -3,6 +3,7 @@
 1. 작업 기간
 + 2020.07 ~ 2020.11
 2. 개발 인원 : 4명
+
 3. 개발 환경
 - FrontEnd : Java, Android
 - BackEnd : JSP, Java, MySQL, Apacheomcat, eclipse

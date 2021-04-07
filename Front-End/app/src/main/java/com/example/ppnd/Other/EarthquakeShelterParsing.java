@@ -23,7 +23,7 @@ public class EarthquakeShelterParsing extends AppCompatActivity {
     //지진대피소 위치 받아오기
     public static String EarthquakeShelterParsing(String url) {
         // Request Obejct인 StringRequest 생성
-        StringRequest request = new StringRequest(Request.Method.POST, url,
+        StringRequest request = new StringRequest(Request.Method.GET, url,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {

@@ -148,7 +148,7 @@ public class VolunteerFragment extends Fragment {
     public void list_AddRequest() {
 
         // Request Obejct인 StringRequest 생성
-        StringRequest request = new StringRequest(Request.Method.POST, url_volunteer,
+        StringRequest request = new StringRequest(Request.Method.GET, url_volunteer,
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String response) {
